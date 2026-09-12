@@ -72,27 +72,27 @@ rem "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --enable-feat
 
 rem Disabled
 rem edge://flags/#allow-all-sites-to-initiate-mirroring
-rem edge://flags/#edge-compose
+rem edge://flags/#edge-ai-search
 rem edge://flags/#edge-copilot-mode
-rem edge://flags/#edge-copilot-mode-profile-toggle
-rem edge://flags/#edge-copilot-tips
+rem edge://flags/#edge-llm-on-device-model-debug-logs
 rem edge://flags/#edge-llm-on-device-model-performance-param
-rem edge://flags/#edge-ntp-composer-feed-integration
+rem edge://flags/#edge-llm-prompt-api-for-phi-mini
+rem edge://flags/#edge-llm-rewriter-api-for-phi-mini
+rem edge://flags/#edge-llm-summarization-api-for-phi-mini
+rem edge://flags/#edge-llm-writer-api-for-phi-mini
 rem edge://flags/#edge-omnibox-commercial-copilot-chat
 rem edge://flags/#edge-omnibox-consumer-copilot-chat
 rem edge://flags/#edge-omnibox-ui-hide-steady-state-url-scheme
 rem edge://flags/#edge-omnibox-ui-hide-steady-state-url-trivial-subdomains
 rem edge://flags/#edge-optin-experimentation
-rem edge://flags/#edge-page-screenshot
 rem edge://flags/#edge-prerender-new-tab-page-trigger
-rem edge://flags/#edge-rounded-containers
-rem edge://flags/#edge-vision-in-cmc
 rem edge://flags/#edge-visual-rejuv-mica
+rem edge://flags/#edge-wchromium-config
 rem edge://flags/#enable-force-dark
 rem edge://flags/#enable-quic
 rem edge://flags/#media-router-cast-allow-all-ips
-rem edge://flags/#prefetch-new-tab-page-trigger
 rem edge://flags/#ui-disable-partial-swap
+rem edge://flags/#web-app-install-element
 rem edge://flags/#web-app-installation-api
 
 rem Enabled
