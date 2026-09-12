@@ -29,7 +29,7 @@ rem reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\DataCollect
 rem bcdedit /set flightsigning on
 rem bcdedit /set {bootmgr} flightsigning on
 
-rem https://www.deskmodder.de/blog/2026/08/18/windows-11-29648-iso-esd-deutsch-english/
+rem https://www.deskmodder.de/blog/2026/09/12/windows-11-29667-iso-esd-deutsch-english
 rem https://www.drivereasy.com/knowledge
 rem https://distrosea.com
 
@@ -1398,9 +1398,6 @@ rem ..................................... Appearances ..........................
 rem 0 - Show share button
 reg add "HKLM\Software\Policies\Microsoft\Edge" /v "ConfigureShare" /t REG_DWORD /d "1" /f
 
-rem 1 - Show Collections button
-reg add "HKLM\Software\Policies\Microsoft\Edge" /v "EdgeCollectionsEnabled" /t REG_DWORD /d "0" /f
-
 rem 1 - Extensions Performance Detector enabled
 reg add "HKLM\Software\Policies\Microsoft\Edge" /v "ExtensionsPerformanceDetectorEnabled" /t REG_DWORD /d "0" /f
 
@@ -1512,6 +1509,9 @@ reg add "HKLM\Software\Policies\Microsoft\Edge" /v "AIGenThemesEnabled" /t REG_D
 
 rem 1 - Enable Copilot address bar suggestions
 reg add "HKLM\Software\Policies\Microsoft\Edge" /v "CopilotAddressBarSuggestionsEnabled" /t REG_DWORD /d "0" /f
+
+rem 1 - Allow Cowork to take actions on your behalf
+reg add "HKLM\Software\Policies\Microsoft\Edge" /v "CopilotCoworkToolActionsEnabled" /t REG_DWORD /d "0" /f
 
 rem 1 - Disabled / 0 - The model is downloaded automatically and used for inference
 reg add "HKLM\Software\Policies\Microsoft\Edge" /v "GenAILocalFoundationalModelSettings" /t REG_DWORD /d "1" /f
